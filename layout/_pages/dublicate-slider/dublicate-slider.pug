@@ -1,0 +1,39 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="initial-scale=1.0, width=device-width")
+        title Slider
+        lin(href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet")
+        link(rel="stylesheet" href="stylesheets/common.css")
+
+    body
+        div(class="dublicate-slider")
+            div(class="dublicate-slider__content")
+                ul(class="dublicate-slider__list transition")
+                    li(data-slider="0" class="dublicate-slider__item") 1
+                        img(class="dublicate-slider__img" src="images/dublicate-slider/1.jpg" alt="Picture")
+                    li(data-slider="1" class="dublicate-slider__item") 2
+                        img(class="dublicate-slider__img" src="images/dublicate-slider/2.jpg" alt="Picture")
+                    li(data-slider="2" class="dublicate-slider__item") 3
+                        img(class="dublicate-slider__img" src="images/dublicate-slider/3.jpg" alt="Picture")
+                    li(data-slider="3" class="dublicate-slider__item") 4
+                        img(class="dublicate-slider__img" src="images/dublicate-slider/4.jpg" alt="Picture")
+                    li(data-slider="4" class="dublicate-slider__item") 5
+                        img(class="dublicate-slider__img" src="images/dublicate-slider/5.jpg" alt="Picture")
+
+            div(class="dublicate-slider__controls")
+                a(class="dublicate-slider__arrow dublicate-slider__arrow--prev" href="#5") Prev
+                a(class="dublicate-slider__arrow dublicate-slider__arrow--next" href="#5") Next
+
+            div(class="dublicate-slider__dots")
+                ul(class="dublicate-slider__dots-list")
+                    li(data-button="0" class="dublicate-slider__dots-item active")
+                    li(data-button="1" class="dublicate-slider__dots-item")
+                    li(data-button="2" class="dublicate-slider__dots-item")
+                    li(data-button="3" class="dublicate-slider__dots-item")
+                    li(data-button="4" class="dublicate-slider__dots-item")
+
+            <div id="parent"></div>
+
+        script(src="scripts/common.js")

@@ -1,0 +1,6 @@
+@import "../../_blocks/normalize/normalize.css";
+@import "../../_blocks/reset/reset.css";
+
+/*! Styles */
+@import "../../_blocks/slider/slider.css";
+@import "../../_blocks/dublicate-slider/dublicate-slider.css";

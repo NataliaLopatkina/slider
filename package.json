@@ -1,0 +1,30 @@
+{
+  "name": "ScilinkrPortal",
+  "private": true,
+  "description": "Layout for Scilinkr Portal",
+  "repository": {
+    "type": "git",
+    "url": "git@git.inostudio.net:layout/scilinkr-portal.git"
+  },
+  "author": {
+    "name": "Roman Pogorelov",
+    "email": "r.pogorelov@inostudio.com"
+  },
+  "devDependencies": {
+    "css-mqpacker": "^6.0.1",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "postcss-advanced-variables": "^2.3.3",
+    "postcss-import": "^10.0.0",
+    "postcss-inline-svg": "^3.1.1",
+    "postcss-nested": "^3.0.0",
+    "postcss-preset-env": "^5.3.0",
+    "postcss-short": "^4.1.0",
+    "run-sequence": "^2.1.0"
+  }
+}

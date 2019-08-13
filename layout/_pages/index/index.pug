@@ -1,0 +1,42 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="initial-scale=1.0, width=device-width")
+        title Slider
+        link(rel="stylesheet" href="stylesheets/common.css")
+
+    body
+        div(class="slider")
+            div(class="slides")
+                ul(class="slides__list")
+                    li(data-slides="0" class="slides__item")
+                        img(class="slides__img" src="images/slides/1.jpg")
+                    li(data-slides="1" class="slides__item")
+                        img(class="slides__img" src="images/slides/2.jpg")
+                    li(data-slides="2" class="slides__item")
+                        img(class="slides__img" src="images/slides/3.jpg")
+                    li(data-slides="3" class="slides__item")
+                        img(class="slides__img" src="images/slides/4.jpg")
+                    li(data-slides="4" class="slides__item")
+                        img(class="slides__img" src="images/slides/5.jpg")
+                    li(data-slides="5" class="slides__item")
+                        img(class="slides__img" src="images/slides/6.jpg")
+                    li(data-slides="6" class="slides__item")
+                        img(class="slides__img" src="images/slides/7.jpg")
+
+                div(class="controls")
+                    a(href="#5" class="controls__arrow controls__arrow--prev")
+                    a(href="#5" class="controls__arrow controls__arrow--next")
+
+            div(class="dots")
+                ul(class="dots__list")
+                    li(data-button="0" class="dots__item dots__item--active")
+                    li(data-button="1" class="dots__item")
+                    li(data-button="2" class="dots__item")
+                    li(data-button="3" class="dots__item")
+                    li(data-button="4" class="dots__item")
+                    li(data-button="5" class="dots__item")
+                    li(data-button="6" class="dots__item")
+
+        script(src="scripts/common.js")

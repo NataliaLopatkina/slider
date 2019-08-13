@@ -1,0 +1,19 @@
+.controls {
+
+    &__arrow {
+        position: absolute;
+        top: 222px;
+        background: url("../images/controls/arrow.svg");
+        width: 30px;
+        height: 30px;
+    }
+
+    &__arrow--prev {
+        transform: rotate(-180deg);
+        left: -45px;
+    }
+
+    &__arrow--next {
+        right: -45px;
+    }
+}

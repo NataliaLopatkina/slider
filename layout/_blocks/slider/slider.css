@@ -1,0 +1,9 @@
+@import "../slides/slides.css";
+@import "../controls/controls.css";
+@import "../dots/dots.css";
+
+/* .slider {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+} */

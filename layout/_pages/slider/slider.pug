@@ -1,0 +1,42 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="initial-scale=1.0, width=device-width")
+        title Slider
+        link(rel="stylesheet" href="stylesheets/common.css")
+
+    body
+        div(class="slider-looped")
+            div(class="slider-looped__content")
+                ul(class="slider-looped__list")
+                    li(data-slider="0" class="slider-looped__item") 1
+                        img(class="slider-looped__img" src="images/slider/1.jpg")
+                    li(data-slider="1" class="slider-looped__item") 2
+                        img(class="slider-looped__img" src="images/slider/2.jpg")
+                    li(data-slider="2" class="slider-looped__item") 3
+                        img(class="slider-looped__img" src="images/slider/3.jpg")
+                    li(data-slider="3" class="slider-looped__item") 4
+                        img(class="slider-looped__img" src="images/slider/4.jpg")
+                    li(data-slider="4" class="slider-looped__item") 5
+                        img(class="slider-looped__img" src="images/slider/5.jpg")
+                    li(data-slider="5" class="slider-looped__item") 6
+                        img(class="slider-looped__img" src="images/slider/6.jpg")
+                    li(data-slider="6" class="slider-looped__item") 7
+                        img(class="slider-looped__img" src="images/slider/7.jpg")
+
+            div(class="slider-looped__controls")
+                button(class="slider-looped__arrow slider-looped__arrow--prev" type="button")
+                button(class="slider-looped__arrow slider-looped__arrow--next" type="button")
+
+            div(class="slider-looped__dots")
+                ul(class="slider-looped__dots-list")
+                    li(data-button="0" class="slider-looped__dots-item active")
+                    li(data-button="1" class="slider-looped__dots-item")
+                    li(data-button="2" class="slider-looped__dots-item")
+                    li(data-button="3" class="slider-looped__dots-item")
+                    li(data-button="4" class="slider-looped__dots-item")
+                    li(data-button="5" class="slider-looped__dots-item")
+                    li(data-button="6" class="slider-looped__dots-item")
+
+        script(src="scripts/common.js")

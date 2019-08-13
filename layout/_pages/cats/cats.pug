@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="initial-scale=1.0, width=device-width")
+        title Slider
+        link(rel="stylesheet" href="stylesheets/common.css")
+
+    body
+        div(class="cats cats--indent")
+            div(class="cats__content")
+                ul(class="cats__list")
+                    li(data-cats="0" class="cats__item") 1
+                        img(class="cats__img" src="images/cats/1.jpg")
+                    li(data-cats="1" class="cats__item") 2
+                        img(class="cats__img" src="images/cats/2.jpg")
+                    li(data-cats="2" class="cats__item") 3
+                        img(class="cats__img" src="images/cats/3.jpg")
+                    li(data-cats="3" class="cats__item") 4
+                        img(class="cats__img" src="images/cats/4.jpg")
+                    li(data-cats="4" class="cats__item") 5
+                        img(class="cats__img" src="images/cats/5.jpg")
+
+            div(class="cats__controls")
+                a(class="cats__control-arrow cats__control-arrow--prev" href="#5")
+                a(class="cats__control-arrow cats__control-arrow--next" href="#5")
+
+            div(class="cats__dots")
+                ul(class="cats__dots-list")
+                    li(data-dots="0" class="cats__dots-item active")
+                    li(data-dots="1" class="cats__dots-item")
+                    li(data-dots="2" class="cats__dots-item")
+                    li(data-dots="3" class="cats__dots-item")
+                    li(data-dots="4" class="cats__dots-item")
+
+            script(src="scripts/common.js")

@@ -1,0 +1,25 @@
+.dots {
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item {
+        width: 15px;
+        height: 15px;
+        border: 2px solid #65B3AD;
+        box-sizing: border-box;
+        margin-right: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &--active {
+            background: #65B3AD;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
